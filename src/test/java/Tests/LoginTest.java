@@ -28,12 +28,7 @@ public class LoginTest extends BaseTest {
                 .submitLoginFormByClickLoginButton();
         Assert.assertTrue(dashboardPage.isLogoutButtonDisplayed());
         dashboardPage.gotoEnvironments()
-                .addEnviron().fillData("Nie powtarzaj się " + new Date().getTime(), "No")
-//                .addEnviron().fillData("Nie powtarzaj się " + new Date().getTime(), "No")
-//                .addEnviron().fillData("Nie powtarzaj się " + new Date().getTime(), "No")
-//                .addEnviron().fillData("Nie powtarzaj się " + new Date().getTime(), "No")
-//                .addEnviron().fillData("Nie powtarzaj się " + new Date().getTime(), "No")
-        ;
+                .addEnviron().fillData("DO NOT REPEAT YOURSELF " + new Date().getTime(), "No");
     }
 
     // Logowanie nieudane

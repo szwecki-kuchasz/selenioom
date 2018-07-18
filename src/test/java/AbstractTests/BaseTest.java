@@ -40,7 +40,7 @@ abstract public class BaseTest extends FrameworkCore {
         customScreenshot = new CustomScreenshot();
         log = Logger.getLogger(this.getClass().getName());
 
-        reports = new ExtentReports(fileHelper.getMainPath()+"reports/report.html", true);
+        reports = new ExtentReports(fileHelper.getMainPath()+"/target/reports/report.html", true);
         reports.addSystemInfo("typ testów", "Regresja")
             .addSystemInfo("Poogda", "słonecznie")
             .addSystemInfo("Czy ok", "ok");
