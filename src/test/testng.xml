@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1bis">
+    <parameter name="browserType" value="chrome" /> <!-- firefox / chrome / ie -->
+    <parameter name="propertiesFile" value="config.properties" />
+    <test name="Test name">
+        <classes>
+            <class name="Tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
