@@ -2,6 +2,7 @@
 
 <suite name="Suite1bis">
     <parameter name="browserType" value="firefox" /> <!-- firefox / chrome / ie -->
+    <!--koment-->
     <parameter name="propertiesFile" value="config.properties" />
     <test name="Test name">
         <classes>
